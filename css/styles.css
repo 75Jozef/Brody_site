@@ -1,0 +1,206 @@
+body{
+  font-family: "Montserrat";
+}
+
+
+
+#title {
+  padding-top: 50px;
+  background-color: #996633;
+color: #fff;
+}
+
+.container-fluid {
+  padding-left: 25%;
+  padding-right: 25%;
+
+}
+
+h1 {
+  padding-top: 100px;
+  padding-bottom: 66px;
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h3 {
+  font-style: "Montserrat";
+  color:#000;
+  font-weight: bold;
+    font-size:2rem;
+
+}
+
+h2 {
+  font-style: "Montserrat";
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.karta {
+  text-align: center;
+}
+
+.mobilfoto {
+  position: relative;
+transform:rotate(15deg) scale(0.8,0.8) translate(30px,50px);
+z-index: 0;
+}
+
+@media (max-width: 1000px) {
+  .mobilfoto {
+    position: static;
+    transform: rotate(0);}
+
+  #title {
+    text-align: center;
+  }
+
+  }
+
+/* navigation bar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+  padding-top: 20px;
+  padding-right: 15%;
+
+}
+
+.nav-item {
+  margin-right: auto;
+}
+
+.download {
+  margin: auto;
+  padding: 0px 0px 0px 0px;
+
+  text-align: center;
+}
+
+.downloadspace {
+padding: 0 0 0 0;
+  margin: 0px 0px 0px 0px;
+}
+
+.nav-link {
+font-size: 2rem;
+}
+
+.navbar-brand {
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-left: 28%;
+}
+
+.btn {
+  margin: 0;
+}
+
+.icon {
+  color: #ff0000;
+  margin-bottom: 1rem;
+}
+
+
+.fa-check-circle:hover {
+  color: #ff00ff;
+}
+
+.fa-bullseye:hover {
+  color: #ff00ff;
+}
+
+.fa-heart:hover {
+  color: #ff00ff;
+}
+
+.fab {
+  padding-right: 0.5rem;
+}
+
+#features-section {
+    padding:3% 25%;
+    background-color: #ccccb3;
+    z-index: 1;
+    position: relative;
+    }
+#pricing {
+  padding: 3% 25%;
+  text-align: center;
+  background-color: #ccccb3;
+}
+
+#cta {
+  padding: 3% 25%;
+  text-align: center;
+  background-color: #ccccb3;
+  }
+
+.footer {
+  font-style: "Montserrat";
+}
+
+.pricing {
+
+}
+
+.features {
+  text-align: center;
+  padding: 5%;
+}
+
+p {
+  color: #000;
+}
+
+/* testimonials */
+
+#testimonials {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+
+  background-color: #996633;
+  text-align: center;
+  color: #fff;
+
+}
+
+#copyright {
+padding-top: 1rem;
+  background-color: #996633;
+  text-align: center;
+  padding-bottom: 1rem;
+  }
+
+.carousel-item {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.testimonialImage {
+  width: 50%;
+  border-radius: 100%;
+  margin: 10%;
+}
+
+.lady {
+  transform: rotate(-90deg);
+}
+
+#press {
+    background-color: #996633;
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 2rem;
+}
+
+.logo {
+  width: 15%;
+  margin: 2%;
+}
